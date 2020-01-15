@@ -380,7 +380,7 @@ module.exports = async function App() {
         'Basic Shopping',
         shopping({
           image:
-            'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_c.png',
+            'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png',
           name: 'Arm Chair, White',
           price: '$49.99',
           isAvailable: true,
@@ -391,7 +391,7 @@ module.exports = async function App() {
         'With `isAvailable: false`',
         shopping({
           image:
-            'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_6_c.png',
+            'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_6_carousel.png',
           name: 'Metal Desk Lamp',
           price: '$11.99',
           isAvailable: false,
@@ -405,14 +405,14 @@ module.exports = async function App() {
           contents: [
             shopping({
               image:
-                'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_c.png',
+                'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png',
               name: 'Arm Chair, White',
               price: '$49.99',
               isAvailable: true,
             }),
             shopping({
               image:
-                'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_6_c.png',
+                'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_6_carousel.png',
               name: 'Metal Desk Lamp',
               price: '$11.99',
               isAvailable: false,

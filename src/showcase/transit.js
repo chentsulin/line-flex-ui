@@ -156,7 +156,6 @@ function stop({ time, name, color }) {
     ],
     spacing: 'lg',
     cornerRadius: '30px',
-    margin: 'xl',
   };
 }
 
