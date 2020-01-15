@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@now/node",
+      "config": {
+        "includeFiles": [
+          "bottender.config.js",
+          "index.js"
+        ],
+        "bundle": true
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/.*",
+      "dest": "/server.js"
+    }
+  ],
+  "env": {
+    "LINE_ACCESS_TOKEN": "@line-flex-ui-access-token",
+    "LINE_CHANNEL_SECRET": "@line-flex-ui-channel-secret"
+  }
+}
