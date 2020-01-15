@@ -567,5 +567,6 @@ module.exports = async function App() {
         options
       );
     }),
+    text('*', Welcome),
   ]);
 };
