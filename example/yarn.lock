@@ -558,9 +558,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1:
   version "6.4.0"
@@ -3698,10 +3698,10 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-line-flex-ui@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/line-flex-ui/-/line-flex-ui-0.0.1.tgz#ab8f0e7c1ad9eb117ce6fc47dea5f8df758a39b5"
-  integrity sha512-Rnycc8xtvLt8QDq4SxYp2lM4CrRA/SHLk3xGi/Xrz3kIgUt5tOpfr6HLpVtpCGuzUgDHC9u1S6X7p9abBxqd/Q==
+line-flex-ui@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/line-flex-ui/-/line-flex-ui-0.0.2.tgz#7df07b56b4bee4c7fa624863a5b5dc2555cf54f2"
+  integrity sha512-YZVKeq4y9Q97g5qYa3bKA3f5PNGWZJ2L5l5FJwYMNhzcEGqsKDHM+fpIUxKjiPW2s2hpBNtuOwphfZ673KcUKA==
   dependencies:
     bottender "1.1.0"
 
