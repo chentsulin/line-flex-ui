@@ -1,6 +1,6 @@
 {
   "name": "line-flex-ui",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Component library for LINE flex messages",
   "main": "index.js",
   "license": "MIT",
