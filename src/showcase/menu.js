@@ -1,4 +1,7 @@
 /**
+ * @example
+ *
+ * ```js
  * menu({
  *   image: 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_2_restaurant.png',
  *   name: "Brown's Burger",
@@ -8,6 +11,7 @@
  *   kcalLarge: 550,
  *   description: 'Sauce, Onions, Pickles, Lettuce & Cheese',
  * })
+ * ```
  */
 function menu({
   image,

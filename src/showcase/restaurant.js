@@ -1,4 +1,7 @@
 /**
+ * @example
+ *
+ * ```js
  * restaurant({
  *   name: 'Brown Cafe',
  *   image: 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png',
@@ -8,6 +11,7 @@
  *   phone: '+886912345678',
  *   webiste: 'https://linecorp.com',
  * })
+ * ```
  */
 function restaurant({ name, image, place, time, rating, phone, website }) {
   return {

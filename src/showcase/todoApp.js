@@ -1,9 +1,13 @@
 /**
+ * @example
+ *
+ * ```js
  * todoApp({
  *   status: 'In Progress',
  *   percentage: 70,
  *   text: 'Buy milk and lettuce before class',
  * })
+ * ```
  */
 function todoApp({ status = 'In Progress', percentage = 0, text }) {
   return {

@@ -12,6 +12,78 @@ yarn add line-flex-ui
 
 ## Usage
 
+### Components
+
+#### impressionTracker
+
+```js
+const { impressionTracker } = require('line-flex-ui/components');
+
+impressionTracker({
+  url: 'https://www.google-analytics.com/collect?...',
+})
+```
+
+- `url`: string.
+
+#### buttonsTemplate
+
+```js
+const { buttonsTemplate } = require('line-flex-ui/components');
+
+buttonsTemplate({
+  text: 'Please select', 
+  actions: [
+    {
+      type: 'postback',
+      label: 'Buy',
+      data: 'action=buy&itemid=123'
+    },
+    {
+      type: 'postback',
+      label: 'Add to cart',
+      data: 'action=add&itemid=123'
+    },
+    {
+      type: 'uri',
+      label: 'View detail',
+      uri: 'http://example.com/page/123'
+    },
+  ],
+})
+```
+
+In [Bottender](https://github.com/Yoctol/bottender):
+
+```js
+await context.sendFlex(
+  'Basic Buttons Template',
+  buttonsTemplate({
+    text: 'Please select', 
+    actions: [
+      {
+        type: 'postback',
+        label: 'Buy',
+        data: 'action=buy&itemid=123'
+      },
+      {
+        type: 'postback',
+        label: 'Add to cart',
+        data: 'action=add&itemid=123'
+      },
+      {
+        type: 'uri',
+        label: 'View detail',
+        uri: 'http://example.com/page/123'
+      },
+    ],
+  })
+);
+```
+
+- `text`: string.
+- `actions`: array of actions.
+
 ### Showcase
 
 #### apparel

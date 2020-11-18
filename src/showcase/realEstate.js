@@ -1,4 +1,7 @@
 /**
+ * @example
+ *
+ * ```js
  * realEstate({
  *   images: [
  *     'https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip4.jpg',
@@ -11,6 +14,7 @@
  *   price: '¥35,000',
  *   description: 'Private Pool, Delivery box, Floor heating, Private Cinema',
  * })
+ * ```
  */
 function realEstate({
   images,

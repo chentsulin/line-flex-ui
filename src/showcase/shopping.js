@@ -1,10 +1,14 @@
 /**
+ * @example
+ *
+ * ```js
  * shopping({
  *   image: 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png',
  *   name: 'Arm Chair, White',
  *   price: '$49.99',
  *   isAvailable: true,
  * })
+ * ```
  */
 function shopping({ image, name, price, isAvailable = true }) {
   return {

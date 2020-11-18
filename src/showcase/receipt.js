@@ -1,4 +1,7 @@
 /**
+ * @example
+ *
+ * ```js
  * receipt({
  *   name: 'Brown Store',
  *   address: 'Miraina Tower, 4-1-6 Shinjuku, Tokyo',
@@ -10,6 +13,7 @@
  *   cash: 8.0,
  *   paymentId: '#743289384279',
  * })
+ * ```
  */
 function receipt({
   title = 'RECEIPT',

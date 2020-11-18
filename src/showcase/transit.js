@@ -1,4 +1,7 @@
 /**
+ * @example
+ *
+ * ```js
  * transit({
  *   from: 'Akihabara',
  *   to: 'Shinjuku',
@@ -28,6 +31,7 @@
  *     }),
  *   ],
  * })
+ * ```
  */
 
 function transit({ from, to, total, items = [] }) {
@@ -102,11 +106,15 @@ function transit({ from, to, total, items = [] }) {
 }
 
 /**
+ * @example
+ *
+ * ```js
  * stop({
  *   time: '20:30',
  *   name: 'Akihabara',
  *   color: '#b7b7b7',
  * })
+ * ```
  */
 function stop({ time, name, color }) {
   return {
@@ -160,10 +168,14 @@ function stop({ time, name, color }) {
 }
 
 /**
+ * @example
+ *
+ * ```js
  * path({
  *   description: 'Walk 4min',
  *   color: '#b7b7b7',
  * })
+ * ```
  */
 function path({ description, color = '#b7b7b7' }) {
   return {

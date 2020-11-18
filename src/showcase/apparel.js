@@ -1,4 +1,7 @@
 /**
+ * @example
+ *
+ * ```js
  * apparel({
  *   image: 'https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip1.jpg',
  *   name: 'Brown\'s T-shirts',
@@ -6,6 +9,7 @@
  *   discountedPrice: '¥35,800',
  *   maskColor: '#03303acc',
  * })
+ * ```
  */
 function apparel({
   image,

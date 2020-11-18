@@ -1,4 +1,7 @@
 /**
+ * @example
+ *
+ * ```js
  * hotel({
  *   image: 'https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip3.jpg',
  *   name: 'Brown Grand Hotel',
@@ -6,6 +9,7 @@
  *   originalPrice: '¥82,000',
  *   discountedPrice: '¥62,000',
  * })
+ * ```
  */
 function hotel({ image, name, rating, originalPrice, discountedPrice }) {
   return {

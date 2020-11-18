@@ -1,10 +1,14 @@
 /**
+ * @example
+ *
+ * ```js
  * localSearch({
  *   image: 'https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip10.jpg',
  *   name: 'Brown Cafe',
  *   rating: 4.0,
  *   description: '東京旅行',
  * })
+ * ```
  */
 function localSearch({ image, name, rating, description }) {
   return {
