@@ -91,7 +91,7 @@ buttonsTemplateBody.contents = buttonsTemplateBodyContents;
  * })
  * ```
  */
-function buttonTemplate({ text, actions }) {
+function buttonsTemplate({ text, actions }) {
   return {
     type: 'bubble',
     header: buttonsTemplateHeader({ text }),
@@ -99,7 +99,7 @@ function buttonTemplate({ text, actions }) {
   };
 };
 
-buttonTemplate.header = buttonTemplateHeader;
-buttonTemplate.body = buttonsTemplateBody;
+buttonsTemplate.header = buttonsTemplateHeader;
+buttonsTemplate.body = buttonsTemplateBody;
 
-module.exports = buttonTemplate;
+module.exports = buttonsTemplate;
